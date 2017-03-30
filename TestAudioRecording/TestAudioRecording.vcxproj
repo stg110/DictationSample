@@ -171,6 +171,7 @@
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Mfplat.lib;Mf.lib;Mfreadwrite.lib;mfuuid.lib;$(OutDir)\MicrophoneLib.lib</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
